@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dem/static/css/main.ff6835c7.css",
+    "main.js": "/dem/static/js/main.8208ff41.js",
+    "static/js/787.0d60e133.chunk.js": "/dem/static/js/787.0d60e133.chunk.js",
+    "static/media/slider.jpg": "/dem/static/media/slider.4a428f9681a39e5ff37a.jpg",
+    "static/media/mision.png": "/dem/static/media/mision.1bccde9ff1d3fc650f9b.png",
+    "static/media/img1.png": "/dem/static/media/img1.ed4ca40d36c079a70477.png",
+    "static/media/vision.png": "/dem/static/media/vision.bc43a96e7c1a8bd101fc.png",
+    "static/media/letras.png": "/dem/static/media/letras.6d859104950af404b871.png",
+    "static/media/logo_letras_horizontal.png": "/dem/static/media/logo_letras_horizontal.db4b718793b4d5258554.png",
+    "static/media/personal-medico.png": "/dem/static/media/personal-medico.50889e3222ae9aebe85a.png",
+    "static/media/logo-login.svg": "/dem/static/media/logo-login.ff233c1a2761f60e9e5d544c059035e4.svg",
+    "index.html": "/dem/index.html",
+    "main.ff6835c7.css.map": "/dem/static/css/main.ff6835c7.css.map",
+    "main.8208ff41.js.map": "/dem/static/js/main.8208ff41.js.map",
+    "787.0d60e133.chunk.js.map": "/dem/static/js/787.0d60e133.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff6835c7.css",
+    "static/js/main.8208ff41.js"
+  ]
+}
