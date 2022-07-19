@@ -1,0 +1,107 @@
+/* Tamaño Tablas Menus */
+.table.size{
+  width: 40%;
+  
+}
+
+button{
+  border: none;
+}
+button:visited { 
+    text-decoration: underline;
+    color:#000;
+}
+
+button:focus{
+  text-decoration:underline solid  2px rgba(63, 26, 133, 0.616);
+}
+
+
+.sn-boton{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ocultar{
+  display: none;
+}
+
+
+
+#sidebarCollaps{
+  float: left;
+}
+  .personal{
+    position: absolute;
+   left: 0px;
+   width: calc(100% );
+  top: 120px;
+  }
+
+  #content{
+    width: calc(100%- 60px);
+    
+  }
+
+  
+
+  input{
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+
+
+}
+
+
+
+
+input:hover{
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+/*================================================= 
+                    Iconos 
+  =================================================*/
+svg.iconify.iconify--emojione-monotone , svg.iconify.iconify--fa6-solid ,   svg.iconify.iconify--ri{
+ 
+  color: gray;
+  transition: 1s ;
+  -webkit-transition: 1s ;
+  -moz-transition: 1s ;
+  -ms-transition: 1s ;
+  -o-transition: 1s ;
+}
+  
+  svg.iconify.iconify--emojione-monotone:hover , svg.iconify.iconify--fa6-solid:hover ,   svg.iconify.iconify--ri:hover{
+
+
+ color: rgb(42, 165, 79);
+
+ transition: 1s ;
+ -webkit-transition: 1s ;
+ -moz-transition: 1s ;
+ -ms-transition: 1s ;
+ -o-transition: 1s ;
+
+    }
+
+
+     
+      
+ 
+
+    .contenido.slider{
+       top: 0px;
+    }
+    
+    
+  
+  

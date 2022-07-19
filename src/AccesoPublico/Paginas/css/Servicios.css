@@ -1,0 +1,33 @@
+
+.servicios{
+    position: relative;
+    top: 100px;
+    padding: 5%;
+}
+
+.table , th , td , thead , tbody , tr{
+    text-decoration: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-collapse:collapse;
+}
+
+
+
+.tab.table.table-sm{
+    background-color: rgb(255, 255, 255);
+}
+
+.img-servicios{
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+table.tab.table{
+    border: none;
+    background-color: rgb(255, 255, 255);
+   border-collapse:collapse;
+}

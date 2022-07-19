@@ -1,0 +1,68 @@
+::root {
+  --color-border: #031a2b rgba(0, 0, 0, 0.11);
+}
+
+.titulo p {
+  text-align: left;
+}
+
+th.color-table {
+  background-color: rgb(37, 3, 129);
+  color: white;
+}
+
+th.color-table.none {
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+td {
+  border-color: black;
+}
+
+th.color-table,
+td.border-td {
+  border: rgba(0, 0, 0, 0.11) 1px solid;
+}
+
+.datos-generales {
+  padding: 20px;
+}
+
+
+#content { 
+  overflow:auto; 
+  width:100%; 
+  margin-top: 0; 
+  padding: 0px  50px  50px;
+
+} 
+
+.section{
+  background-color: #ffffff;
+}
+
+#left, #right { 
+  width: 49%; 
+
+} 
+
+.historia-familiar{
+  width: 100%;
+  padding: 20px;
+}
+
+.antecedentes{
+  position: relative;
+  background-color: black;
+  height: 100%;
+}
+
+input.input-right{
+ margin-left: 50%;
+}
+
+
+button.btn.buton-registrar:hover{
+  background-color: rgb(15, 89, 99);
+}

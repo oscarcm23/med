@@ -1,0 +1,246 @@
+/* VARIABLES CSS  */
+td{
+  letter-spacing: 2px;
+}
+
+:root {
+
+
+  --principal-color_1: #8aa2d4;
+ --principal-color_2: #d1e9ff;
+ --principal-color_3: #414370;
+ --principal-color_4: #a2d3ff;
+  --principal-color: #313632;
+  /* Body Color
+ */
+  /*  --administrador-body-color: rgb(255, 255, 255);
+ */
+  --administrador-body-color: rgb(255, 255, 255);
+
+  /* Color Menu Lateral */
+  --administrador-tablas-color: rgb(255, 255, 255);
+
+  /*   Color Menu Administrador  */
+  /* Color Menu Lateral */
+  --administrador-bg-color: rgb(2, 34, 77);
+  /* 
+  Coor Hover Menu lateral
+   */
+  --administrador-hover-color: rgb(15, 82, 170);
+  /* Color Texto Menu lateral
+    */
+  --administrador-texto-color: rgb(255, 255, 255);
+
+  /* Color Iconos Menu */
+  --administrador-menu-color: rgb(255, 255, 255);
+
+  /* Color Icono Salir */
+  --administrador-salir-color: rgb(255, 0, 0);
+
+  --resetear-bg-color: rgb(2, 34, 77);
+  --resetear-hover-color: rgb(60, 98, 180);
+
+  --modificar-bg-color: rgb(41, 92, 17);
+  --modificar-hover-color: rgb(21, 182, 16);
+
+  --modificar2-bg-color: rgb(17, 75, 92);
+  --modificar2-hover-color: rgb(0, 131, 113);
+
+  --cancelar-bg-color: rgb(185, 0, 0);
+  --cancelar-hover-color: rgb(255, 0, 0);
+
+  --ver-bg-color: rgb(63, 15, 21);
+  --ver-hover-color: rgb(115, 0, 160);
+
+  --busqueda-bg-color: rgba(0, 0, 0, 0);
+  --busqueda-hover-color: rgb(0, 44, 80);
+
+  --titulo-bg-color: rgb(75, 255, 225);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+
+
+th.listacl {
+  width: 200px;
+}
+td.editar {
+  background-color: #c0e6f8;
+}
+
+td.verde {
+  background-color: #4ba6f01c;
+}
+
+td.azul {
+  background-color: #9ab1e2b0;
+}
+
+td.Aceptado {
+  background-color: #00f335d7;
+}
+td.En.revision {
+  background-color: #f6fa00d0;
+
+  content: "\2193";
+}
+
+td.Rechazado {
+  background-color: hsla(0, 100%, 65%, 0.795);
+}
+
+td.Rechazado span {
+  color: #ffffff;
+}
+
+td {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.btn {
+  padding: 12px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+
+.btn:hover {
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn.btn-primary.PDF {
+  background-color: rgb(134, 0, 0);
+}
+
+.btn.btn-primary.PDF:hover {
+  background-color: rgb(189, 0, 0);
+}
+
+select {
+  height: 30px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 34px;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+::placeholder {
+  text-align: center;
+}
+th,
+td {
+  text-align: center;
+}
+input {
+  width: 100%;
+}
+
+.re-Captcha {
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-left: 60px;
+}
+
+.visible {
+  display: none;
+}
+
+.visible2 {
+  display: inline-block;
+}
+/* ================================== Transparencia fondo menus ==================================*/
+
+@media screen and (max-width: 960px) {
+
+
+  .busqueda-proyectos {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 60px);
+    left: 60px;
+    background-color: var(--administrador-bg-color);
+  }
+
+  
+
+  td{
+    padding: 1px 20px;
+    letter-spacing: 2px;
+
+  }
+
+  .btn {
+   
+    font-size: 16px;
+    padding: 1px 10px;
+    letter-spacing: 1px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .contenido-main-registro {
+    margin-left: 100px;
+  }
+
+
+
+
+}
+
+
+
+.scene{
+  top: 130px;
+}

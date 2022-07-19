@@ -1,0 +1,133 @@
+.header{
+	position:fixed;
+	width: 100%;
+	height: 60px;
+     background-color: var(--principal-color_2);
+	 z-index: 2;
+}
+
+.navbar1 .navbar-logo1 img {
+	position: absolute;
+	left: 5%;
+	top: 0;
+	width: 150px;
+	height: 50px;
+	margin-bottom: 0px;
+  }
+
+    
+  /*========================Menú Movil Desactivado========================*/
+  .nav-links-mobile {
+	display: none;
+  }
+
+  
+  nav.navbar1 {
+	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 70px;
+	align-items: center;
+	font-weight: 520;
+  }
+  
+  /* Color Texto Menu Principal */
+  .nav-item1 p {
+	color: #000000;
+	font-size: 16px;
+  }
+  .nav-item1:hover p {
+	color: #ffffff;
+  }
+
+  
+  .nav-item1.cot1 {
+	background-color: #ffffff;
+	top: 0px;
+	height: 70px;
+	padding: 20px;
+  }
+  .nav-item1.cot1 p {
+	color: #000000;
+  }
+  
+  /* HOVER MENUS */
+  .nav-item1.cot1:hover {
+	background-color: var(--principal-color_1);
+	top: 0px;
+	height: 70px;
+	
+  }
+  .nav-item1.cot1:hover p {
+	color: #ffffff;
+  }
+  
+  .nav-links1:hover {
+	font-size: 17px;
+	color: rgb(0, 0, 0);
+	background-color: var(--principal-color_1);
+  
+	transition: all 0.2s ease-out;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	
+  }
+
+
+  
+
+  a.nav-links1.cot{
+	background-color: #fcfcfc;
+	
+	  }
+	
+	  a.nav-links1.cot:hover{
+		background-color: var(--principal-color_1);
+		
+		  }
+
+
+		  
+  /*===================Menú Navegación Secundario==========================*/
+  
+  .fa-firstdraft {
+	margin-left: 0.5rem;
+	font-size: 1.6rem;
+  }
+  
+  .nav-menu1 {
+	display: flex;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 10px;
+	list-style: none;
+	text-align: center;
+	width: 70vw;
+	justify-content: right;
+	margin-right: 2rem;
+  }
+  
+  /*========================Menu Tamaño=============================*/
+  
+  .nav-item1 {
+	display: flex;
+	align-items: center;
+	height: 80px;
+  }
+  
+  /*========================TColor Fondo Menú=============================*/
+  
+  /*===================Color Letra Mneú==========================*/
+  .nav-links1 {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+  }
+  
+  /*===================Color Botones Menú==========================*/
+  .menu-icon1 {
+	display: none;
+  }

@@ -1,0 +1,15 @@
+#content-clinica{
+    margin: 30px;
+}
+.titulo-tabla{
+    background-color: black ;
+}
+.titulo-columna{
+    background-color: #414370;
+    color: white;
+}
+
+
+.prueba{
+    float: left;
+}
